@@ -1,0 +1,175 @@
+html{
+    background-color: #edf2c5;
+}
+
+body{
+    font-family: Arial,BoldMT,san-serif;
+    margin: 0 auto;
+    width: 940px;
+    font-size: 16px;
+    color:#ffff;
+}
+
+section{
+    height: auto;
+    width: 940px;
+    padding: 0 auto;
+}
+
+header{
+    margin-top:53px;
+    margin-bottom: 7px; 
+}
+
+#title{
+    display: inline-block;
+    height: 42px; 
+    width: 271px;
+    font-weight: bold;
+    color: #778a50;
+    font-size: 44px;
+    
+    box-sizing: border-box;
+}
+
+.header-btn{
+    display:inline-block;
+    margin-left: 440px; 
+}
+
+.btn-img-div{
+    display: inline-block;
+    border-right: 1px #778a50 solid;
+}
+
+.btn-img-div a img{
+    margin-right: 10px;
+}
+
+.btn-text-div{
+    display: inline-block;
+}
+
+#login{
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+}
+
+#join{
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.btn-text-div a{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: bottom;
+    color: #778a50;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px #778a50 solid;
+    border-radius: 3px;
+}
+
+nav{
+    width: 940px;
+    height: 44px;
+}
+
+.green-btn{
+    background-color: #778a50;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+ul, menu, dir{
+    display: block;
+    list-style-type: disc;
+}
+
+.nav-list-item{
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 30px;
+    margin-right: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #edf2c5;
+    text-decoration: none;
+}
+#img-main{
+    display: block;
+    margin-top: 20px;
+}
+
+#downer{
+    margin-top: 30px;
+    display: flex;
+}
+
+#vegetables{
+    width: 445px;
+    height: 200px;
+}
+
+#vegetables-title{
+    height: 20px;
+    font-weight: bold;
+    color: #edf2c5;
+    padding: 14px 30px;
+}
+
+#vegetables-img{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact{
+    width: 445px;
+    height: 200px;
+   margin-left: 50px;
+}
+
+#contact-title{
+    height: 20px;
+    font-weight: bold;
+    color: #edf2c5;
+    padding: 14px 30px;
+}
+
+#contact-p{
+    margin-top: 15px;
+    width: 445px;
+    height: 140px;
+    background-color: #f7fbda;
+    border-radius: 1px;
+    color: #7d7d7d;
+    font-size: 12px;
+    line-height: 1.33em;
+}
+
+:first-child.contact-bar{
+    border-bottom: 1px #7d7d7d solid;
+}
+
+.contact-bar{
+    display: bold;
+    height: 50px;
+    width: 424px;
+    margin-left: 15px;
+    padding: 13px 0;
+}
+
+footer{
+    margin-top: 35px;
+    height: 60px;
+    font-size: 12px;
+    color: #edf2c5;
+    padding-top: 24px;
+    text-align: center;
+}
